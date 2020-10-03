@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileTogetherDesign versionClient="63" versionServer="63">
+	<DesignRoot id="5">
+		<children>
+			<DesignPage id="6">
+				<style backgroundColor="white" name="Login Screen" showTitleBar="0"/>
+				<children>
+					<DesignVSpace id="213">
+						<style name="Space1"/>
+					</DesignVSpace>
+					<DesignVSpace id="215">
+						<style name="Space2"/>
+					</DesignVSpace>
+					<DesignVSpace id="217">
+						<style name="Space3"/>
+					</DesignVSpace>
+					<DesignLabel id="360">
+						<style align="center" name="Label1" text="AU Archery" textColor="#B70062" textSize="75px" weight="1"/>
+					</DesignLabel>
+					<DesignVSpace id="364">
+						<style name="Space4"/>
+					</DesignVSpace>
+					<DesignTable id="190">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="191"/>
+							<DesignTableRow id="192">
+								<children>
+									<DesignLabel id="181">
+										<style name="Username" text="Username:"/>
+									</DesignLabel>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="195">
+								<children>
+									<DesignEditField id="149" pageXML="210">
+										<style name="UsernameIn"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="196">
+						<style name="Table4"/>
+						<children>
+							<DesignTableCol id="197"/>
+							<DesignTableRow id="198">
+								<children>
+									<DesignLabel id="183">
+										<style name="Password" text="Password:"/>
+									</DesignLabel>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="202">
+								<children>
+									<DesignEditField id="203" pageXML="211">
+										<style name="PasswordIn"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="233">
+						<style name="Table5"/>
+						<children>
+							<DesignTableCol id="234"/>
+							<DesignTableRow id="235">
+								<children>
+									<DesignVSpace id="236">
+										<style name="Space5"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="238">
+								<children>
+									<DesignVSpace id="239">
+										<style name="Space6"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignButton id="184">
+						<style backgroundColor="#B70062" name="SignIn" text="Sign In" textColor="white"/>
+						<controlActions id="185">
+							<children>
+								<DesignActionCtrlClick id="186">
+									<children>
+										<DesignActionGotoPage id="296" processRef="232"/>
+									</children>
+								</DesignActionCtrlClick>
+							</children>
+						</controlActions>
+					</DesignButton>
+					<DesignVSpace id="294">
+						<style name="Space7"/>
+					</DesignVSpace>
+					<DesignButton id="205">
+						<style backgroundColor="#361163" name="Register" text="Register" textColor="white"/>
+						<controlActions id="24">
+							<children>
+								<DesignActionCtrlClick id="25">
+									<children>
+										<DesignActionGotoSubpage id="1851" pageRef="1841" showLoadSubpageMsg="0" showCloseSubpageMsg="0"/>
+									</children>
+								</DesignActionCtrlClick>
+							</children>
+						</controlActions>
+					</DesignButton>
+				</children>
+				<xmlRoots>
+					<PageXMLRootRef id="19" refXMLRoot="73"/>
+				</xmlRoots>
+			</DesignPage>
+			<DesignPage id="223">
+				<style name="Homescreen" showTitleBar="0"/>
+				<children>
+					<DesignVSpace id="358">
+						<style name="Space3"/>
+					</DesignVSpace>
+					<DesignLabel id="241">
+						<style align="center" backgroundColor="white" name="LoginTitle" text="AU Archery" textColor="#B70062" textSize="75px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="309">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="310"/>
+							<DesignTableRow id="314">
+								<children>
+									<DesignVSpace id="315">
+										<style name="Space4"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="317">
+								<children>
+									<DesignVSpace id="318">
+										<style name="Space5"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="252">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="253">
+								<style colWidth="40%"/>
+							</DesignTableCol>
+							<DesignTableCol id="298">
+								<style colWidth="20%"/>
+							</DesignTableCol>
+							<DesignTableCol id="254"/>
+							<DesignTableRow id="255">
+								<children>
+									<DesignButton id="246">
+										<style backgroundColor="#361163" margin="5px" name="Button1" padding="10px" text="Enter Scores" textColor="white"/>
+										<controlActions id="256">
+											<children>
+												<DesignActionCtrlClick id="257">
+													<children>
+														<DesignActionGotoPage id="366" processRef="444"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVLine id="299">
+										<style name="Vertical Line3" rowSpan="2"/>
+									</DesignVLine>
+									<DesignButton id="248">
+										<style backgroundColor="#B70062" margin="5px" multiLine="1" name="Button2" padding="10px" text="Submitted Scores" textColor="white"/>
+										<controlActions id="260">
+											<children>
+												<DesignActionCtrlClick id="261">
+													<children>
+														<DesignActionGotoPage id="369" processRef="445"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="338">
+								<children>
+									<DesignVSpace id="339">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignTableCellEmpty id="342"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="264">
+								<children>
+									<DesignHLine id="324">
+										<style colSpan="3" name="Horizontal Line1"/>
+									</DesignHLine>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="343">
+								<children>
+									<DesignVSpace id="344">
+										<style name="Space2"/>
+									</DesignVSpace>
+									<DesignVLine id="303">
+										<style name="Vertical Line1" rowSpan="3"/>
+									</DesignVLine>
+									<DesignTableCellEmpty id="347"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="268">
+								<children>
+									<DesignButton id="249">
+										<style backgroundColor="#B70062" margin="5px" name="Button3" padding="10px" text="Training" textColor="white"/>
+										<controlActions id="269">
+											<children>
+												<DesignActionCtrlClick id="270">
+													<children>
+														<DesignActionGotoPage id="370" processRef="446"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignButton id="247">
+										<style backgroundColor="#361163" margin="5px" multiLine="1" name="Button4" padding="10px" text="Attendance" textColor="white"/>
+										<controlActions id="273">
+											<children>
+												<DesignActionCtrlClick id="274">
+													<children>
+														<DesignActionGotoPage id="371" showLoadToppageMsg="0" processRef="1237"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="348">
+								<children>
+									<DesignVSpace id="349">
+										<style name="Space7"/>
+									</DesignVSpace>
+									<DesignTableCellEmpty id="352"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="277">
+								<children>
+									<DesignHLine id="330">
+										<style colSpan="3" name="Horizontal Line4"/>
+									</DesignHLine>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="353">
+								<children>
+									<DesignVSpace id="354">
+										<style name="Space6"/>
+									</DesignVSpace>
+									<DesignVLine id="307">
+										<style name="Vertical Line5" rowSpan="2"/>
+									</DesignVLine>
+									<DesignTableCellEmpty id="357"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="281">
+								<children>
+									<DesignButton id="250">
+										<style backgroundColor="#361163" margin="5px" multiLine="1" name="Button5" padding="10px" text="Performance Rankings" textColor="white"/>
+										<controlActions id="282">
+											<children>
+												<DesignActionCtrlClick id="283">
+													<children>
+														<DesignActionGotoPage id="372" processRef="448"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignButton id="251">
+										<style backgroundColor="#B70062" margin="5px" multiLine="1" name="Button6" padding="10px" text="Change Access" textColor="white"/>
+										<controlActions id="286">
+											<children>
+												<DesignActionCtrlClick id="287">
+													<children>
+														<DesignActionGotoPage id="373" showLoadToppageMsg="0" processRef="1550"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+				<xmlRoots>
+					<PageXMLRootRef id="290" refXMLRoot="291"/>
+				</xmlRoots>
+			</DesignPage>
+			<DesignPage id="374">
+				<style name="Enter Scores" showTitleBar="0"/>
+				<children>
+					<DesignTable id="375">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="376"/>
+							<DesignTableCol id="377"/>
+							<DesignTableCol id="378"/>
+							<DesignTableRow id="379">
+								<children>
+									<DesignButton id="380">
+										<style backgroundColor="#361163" name="Button1" text="Menu" textColor="white"/>
+										<controlActions id="381">
+											<children>
+												<DesignActionCtrlClick id="382">
+													<children>
+														<DesignActionGotoPage id="498" processRef="232"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="385">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="387">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="367">
+						<style align="center" backgroundColor="white" name="LoginTitle" text="Enter Scores" textColor="#B70062" textSize="60px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="631">
+						<style name="Table5"/>
+						<children>
+							<DesignTableCol id="632"/>
+							<DesignTableRow id="633">
+								<children>
+									<DesignVSpace id="634">
+										<style name="Space5"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="636">
+								<children>
+									<DesignVSpace id="637">
+										<style name="Space6"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="452">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="453"/>
+							<DesignTableCol id="454"/>
+							<DesignTableRow id="455">
+								<children>
+									<DesignLabel id="456">
+										<style name="Label1" text="Date:"/>
+									</DesignLabel>
+									<DesignDate id="451" pageXML="475">
+										<style dtFormat="[D01] [MN,*-3] [Y0001]" dtFormatLanguage="en" enabled="1" name="Date1"/>
+										<controlActions id="460">
+											<children>
+												<DesignActionChooseDate id="472" onError="continue" locDate="current-date()">
+													<children>
+														<DesignActionOnSuccess id="473"/>
+														<DesignActionOnCancel id="474"/>
+													</children>
+												</DesignActionChooseDate>
+											</children>
+										</controlActions>
+									</DesignDate>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="461">
+						<style name="Space4"/>
+					</DesignVSpace>
+					<DesignTable id="478">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="479">
+								<style colWidth="50%"/>
+							</DesignTableCol>
+							<DesignTableCol id="480"/>
+							<DesignTableCol id="481"/>
+							<DesignTableRow id="482">
+								<children>
+									<DesignLabel id="450">
+										<style name="Label2" text="Arrows per end:"/>
+									</DesignLabel>
+									<DesignButton id="477">
+										<style backgroundColor="#361163" name="Button2" text="3" textColor="white"/>
+									</DesignButton>
+									<DesignButton id="476">
+										<style backgroundColor="#361163" name="Button3" text="5" textColor="white"/>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="466">
+						<style name="Space3"/>
+					</DesignVSpace>
+					<DesignTable id="493">
+						<style name="Table4"/>
+						<children>
+							<DesignTableCol id="494"/>
+							<DesignTableCol id="495"/>
+							<DesignTableRow id="496">
+								<children>
+									<DesignLabel id="468">
+										<style name="Label3" text="Number of ends:"/>
+									</DesignLabel>
+									<DesignEditField id="491" pageXML="497">
+										<style hint="Please enter a number" name="Edit Field1"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="639">
+						<style name="Space7"/>
+					</DesignVSpace>
+					<DesignTable id="641">
+						<style name="Table6"/>
+						<children>
+							<DesignTableCol id="642">
+								<style colWidth="25%"/>
+							</DesignTableCol>
+							<DesignTableCol id="643">
+								<style colWidth="50%"/>
+							</DesignTableCol>
+							<DesignTableCol id="644"/>
+							<DesignTableRow id="645">
+								<children>
+									<DesignVSpace id="629">
+										<style name="Space8"/>
+									</DesignVSpace>
+									<DesignButton id="630">
+										<style name="Button4" text="Enter your scores"/>
+										<controlActions id="647">
+											<children>
+												<DesignActionCtrlClick id="648">
+													<children>
+														<DesignActionGotoSubpage id="649" pageRef="589" showLoadSubpageMsg="0" showCloseSubpageMsg="0"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="653">
+										<style name="Space9"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+			<DesignPage id="399">
+				<style name="Submitted Scores" showTitleBar="0"/>
+				<children>
+					<DesignTable id="499">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="500"/>
+							<DesignTableCol id="501"/>
+							<DesignTableCol id="502"/>
+							<DesignTableRow id="503">
+								<children>
+									<DesignButton id="504">
+										<style backgroundColor="#361163" name="Button1" text="Menu" textColor="white"/>
+										<controlActions id="505">
+											<children>
+												<DesignActionCtrlClick id="506">
+													<children>
+														<DesignActionGotoPage id="507" processRef="232"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="510">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="512">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="1064">
+						<style align="center" backgroundColor="white" name="LoginTitle" text="Submitted Scores" textColor="#B70062" textSize="50px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="1070">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="1071"/>
+							<DesignTableCol id="1072"/>
+							<DesignTableRow id="1073">
+								<children>
+									<DesignRadioButton id="1066" pageXML="1078">
+										<style checked="3 Arrow Sets" name="Radio Button1" text="3 Arrow Sets"/>
+									</DesignRadioButton>
+									<DesignRadioButton id="1067" pageXML="1078">
+										<style checked="5 Arrow Sets" name="Radio Button2" text="5 Arrow Sets"/>
+									</DesignRadioButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+			<DesignPage id="408">
+				<style name="Training" showTitleBar="0"/>
+				<children>
+					<DesignTable id="514">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="515"/>
+							<DesignTableCol id="516"/>
+							<DesignTableCol id="517"/>
+							<DesignTableRow id="518">
+								<children>
+									<DesignButton id="519">
+										<style backgroundColor="#361163" name="Button1" text="Menu" textColor="white"/>
+										<controlActions id="520">
+											<children>
+												<DesignActionCtrlClick id="521">
+													<children>
+														<DesignActionGotoPage id="522" processRef="232"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="525">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="527">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="1079">
+						<style align="center" backgroundColor="white" name="LoginTitle" text="Training" textColor="#B70062" textSize="50px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="1088">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="1089"/>
+							<DesignTableRow id="1090">
+								<children>
+									<DesignVSpace id="1091">
+										<style name="Space3"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1093">
+								<children>
+									<DesignVSpace id="1094">
+										<style name="Space4"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1096">
+								<children>
+									<DesignVSpace id="1097">
+										<style name="Space5"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1099">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="1100"/>
+							<DesignTableCol id="1101"/>
+							<DesignTableRow id="1102">
+								<children>
+									<DesignLabel id="1081">
+										<style name="Label1" text="Date:"/>
+									</DesignLabel>
+									<DesignDate id="1106" pageXML="1144">
+										<style name="Date1"/>
+									</DesignDate>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1108">
+						<style name="Table4"/>
+						<children>
+							<DesignTableCol id="1109"/>
+							<DesignTableCol id="1110"/>
+							<DesignTableCol id="1111"/>
+							<DesignTableCol id="1112"/>
+							<DesignTableRow id="1113">
+								<children>
+									<DesignVSpace id="1114">
+										<style name="Space6"/>
+									</DesignVSpace>
+									<DesignRadioButton id="1082" pageXML="1145">
+										<style cbRight="0" checked="Yes" name="Radio Button1" text="Yes"/>
+									</DesignRadioButton>
+									<DesignRadioButton id="1083" pageXML="1145">
+										<style cbRight="0" checked="No" name="Radio Button2" text="No"/>
+									</DesignRadioButton>
+									<DesignVSpace id="1118">
+										<style name="Space7"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="1120">
+						<style name="Space8"/>
+					</DesignVSpace>
+					<DesignTable id="1122">
+						<style name="Table5"/>
+						<children>
+							<DesignTableCol id="1123"/>
+							<DesignTableCol id="1124"/>
+							<DesignTableRow id="1125">
+								<children>
+									<DesignLabel id="1126">
+										<style name="Label2" text="Date:"/>
+									</DesignLabel>
+									<DesignDate id="1130" pageXML="1147">
+										<style name="Date2"/>
+									</DesignDate>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1132">
+						<style name="Table6"/>
+						<children>
+							<DesignTableCol id="1133"/>
+							<DesignTableCol id="1134"/>
+							<DesignTableCol id="1135"/>
+							<DesignTableCol id="1136"/>
+							<DesignTableRow id="1137">
+								<children>
+									<DesignVSpace id="1138">
+										<style name="Space9"/>
+									</DesignVSpace>
+									<DesignRadioButton id="1084" pageXML="1146">
+										<style cbRight="0" checked="Yes" name="Radio Button3" text="Yes"/>
+									</DesignRadioButton>
+									<DesignRadioButton id="1085" pageXML="1146">
+										<style cbRight="0" checked="No" name="Radio Button4" text="No"/>
+									</DesignRadioButton>
+									<DesignVSpace id="1142">
+										<style name="Space10"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+			<DesignPage id="426">
+				<style name="Performance Rankings" showTitleBar="0"/>
+				<children>
+					<DesignTable id="544">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="545"/>
+							<DesignTableCol id="546"/>
+							<DesignTableCol id="547"/>
+							<DesignTableRow id="548">
+								<children>
+									<DesignButton id="549">
+										<style backgroundColor="#361163" name="Button1" text="Menu" textColor="white"/>
+										<controlActions id="550">
+											<children>
+												<DesignActionCtrlClick id="551">
+													<children>
+														<DesignActionGotoPage id="552" processRef="232"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="555">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="557">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="1240">
+						<style align="center" backgroundColor="white" multiLine="1" name="LoginTitle" text="Performance Rankings" textColor="#B70062" textSize="50px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="1246">
+						<style addDelPossible="0" borderColor="black" name="PerformanceRanks" visible="1"/>
+						<children>
+							<DesignTableCol id="1247"/>
+							<DesignTableCol id="1248"/>
+							<DesignTableCol id="1249"/>
+							<DesignTableCol id="1250"/>
+							<DesignTableCol id="1315"/>
+							<DesignTableCol id="1659"/>
+							<DesignTableCol id="1684"/>
+							<DesignTableScrollableArea id="1692">
+								<style maxTableX="wrap_content"/>
+								<children>
+									<DesignTableRow id="1251">
+										<children>
+											<DesignLabel id="1245">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label1" text="Rank:" weight="1"/>
+											</DesignLabel>
+											<DesignLabel id="1252">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label2" text="Criteria 1" weight="1"/>
+											</DesignLabel>
+											<DesignLabel id="1253">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label3" text="Criteria 2" weight="1"/>
+											</DesignLabel>
+											<DesignLabel id="1254">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label4" text="Criteria 3" weight="1"/>
+											</DesignLabel>
+											<DesignLabel id="1314">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label17" text="Criteria 4" weight="1"/>
+											</DesignLabel>
+											<DesignLabel id="1658">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label18" text="Criteria 5" weight="1"/>
+											</DesignLabel>
+											<DesignLabel id="1671">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label19" text="Criteria 6" weight="1"/>
+											</DesignLabel>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1255">
+										<children>
+											<DesignLabel id="1256">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label5" text="Person 1"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1257">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1258">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1259">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1316">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1657">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1672">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1260">
+										<children>
+											<DesignLabel id="1261">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label6" text="Person 2"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1262">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1263">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1264">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1317">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1660">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1673">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1265">
+										<children>
+											<DesignLabel id="1266">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label7" text="Person 3"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1267">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1268">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1269">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1318">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1661">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1674">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1270">
+										<children>
+											<DesignLabel id="1271">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label8" text="Person 4"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1272">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1273">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1274">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1319">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1662">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1675">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1275">
+										<children>
+											<DesignLabel id="1276">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label9" text="Person 5"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1277">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1278">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1279">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1320">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1663">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1676">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1280">
+										<children>
+											<DesignLabel id="1281">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label10" text="Person 6"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1282">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1283">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1284">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1321">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1664">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1677">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1285">
+										<children>
+											<DesignLabel id="1286">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label11" text="Person 7"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1287">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1288">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1289">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1322">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1665">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1678">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1290">
+										<children>
+											<DesignLabel id="1291">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label12" text="Person 8"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1292">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1293">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1294">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1323">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1666">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1679">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1295">
+										<children>
+											<DesignLabel id="1296">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label13" text="Person 9"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1297">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1298">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1299">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1324">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1667">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1680">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1300">
+										<children>
+											<DesignLabel id="1243">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label14" text="Person 10"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1301">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1302">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1303">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1325">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1668">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1681">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1304">
+										<children>
+											<DesignLabel id="1244">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label15" text="Person 11"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1305">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1306">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1307">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1326">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1669">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1682">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+									<DesignTableRow id="1308">
+										<children>
+											<DesignLabel id="1309">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px" name="Label16" text="Person 12"/>
+											</DesignLabel>
+											<DesignTableCellEmpty id="1310">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1311">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1312">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1327">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1670">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+											<DesignTableCellEmpty id="1683">
+												<style cellBorderColor="black" cellBorderStyle="solid" cellBorderWidth="1px"/>
+											</DesignTableCellEmpty>
+										</children>
+									</DesignTableRow>
+								</children>
+							</DesignTableScrollableArea>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+			<DesignPage id="1841" subPage="1">
+				<style name="Register"/>
+				<children>
+					<DesignTable id="1825">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="1826"/>
+							<DesignTableCol id="1827"/>
+							<DesignTableCol id="1828"/>
+							<DesignTableRow id="1829">
+								<children>
+									<DesignButton id="1830">
+										<style backgroundColor="#361163" name="Button1" text="Login Screen" textColor="white"/>
+										<controlActions id="1831">
+											<children>
+												<DesignActionCtrlClick id="1832">
+													<children>
+														<DesignActionReturnFromSubpage id="1842"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="1836">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="1838">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="1853">
+						<style align="center" backgroundColor="white" multiLine="1" name="LoginTitle" text="Registration" textColor="#B70062" textSize="50px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="1856">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="1857"/>
+							<DesignTableRow id="1858">
+								<children>
+									<DesignVSpace id="1855">
+										<style name="Space3"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1859">
+								<children>
+									<DesignVSpace id="1860">
+										<style name="Space4"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1868">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="1869"/>
+							<DesignTableCol id="1870"/>
+							<DesignTableRow id="1871">
+								<children>
+									<DesignLabel id="1872">
+										<style name="Label1" text="First Name:"/>
+									</DesignLabel>
+									<DesignEditField id="1876" pageXML="1906">
+										<style name="Edit Field1"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1878">
+								<children>
+									<DesignLabel id="1879">
+										<style name="Label2" text="Surname:"/>
+									</DesignLabel>
+									<DesignEditField id="1883" pageXML="1907">
+										<style name="Edit Field2"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1885">
+								<children>
+									<DesignLabel id="1886">
+										<style name="Label3" text="Email:"/>
+									</DesignLabel>
+									<DesignEditField id="1890" pageXML="1908">
+										<style name="Edit Field3"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="1863">
+						<style name="Space5"/>
+					</DesignVSpace>
+					<DesignTable id="1893">
+						<style name="Table4"/>
+						<children>
+							<DesignTableCol id="1894">
+								<style colWidth="25%"/>
+							</DesignTableCol>
+							<DesignTableCol id="1895">
+								<style colWidth="50%"/>
+							</DesignTableCol>
+							<DesignTableCol id="1896"/>
+							<DesignTableRow id="1897">
+								<children>
+									<DesignVSpace id="1862">
+										<style name="Space6"/>
+									</DesignVSpace>
+									<DesignButton id="1861">
+										<style backgroundColor="#B70062" name="Button2" text="Register" textColor="white"/>
+									</DesignButton>
+									<DesignVSpace id="1903">
+										<style name="Space7"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+			<DesignPage id="589" subPage="1">
+				<style name="Enter Target"/>
+				<children>
+					<DesignTable id="574">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="575"/>
+							<DesignTableCol id="576"/>
+							<DesignTableCol id="577"/>
+							<DesignTableRow id="578">
+								<children>
+									<DesignButton id="579">
+										<style backgroundColor="#361163" name="Button1" text="Enter Scores" textColor="white"/>
+										<controlActions id="580">
+											<children>
+												<DesignActionCtrlClick id="581">
+													<children>
+														<DesignActionReturnFromSubpage id="740"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="585">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="587">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="657">
+						<style name="Space5"/>
+					</DesignVSpace>
+					<DesignImage id="623">
+						<style align="center" name="Image1" width="60%"/>
+						<ImgFileSettings id="624" url="C:\Users\Linus\Pictures\Archery Target.PNG" deployable_so="625" createDirs="0"/>
+					</DesignImage>
+					<DesignVSpace id="659">
+						<style name="Space6"/>
+					</DesignVSpace>
+					<DesignTable id="661">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="662"/>
+							<DesignTableCol id="663"/>
+							<DesignTableCol id="664"/>
+							<DesignTableRow id="665">
+								<children>
+									<DesignVSpace id="666">
+										<style name="Space4"/>
+									</DesignVSpace>
+									<DesignVSpace id="668">
+										<style name="Space3"/>
+									</DesignVSpace>
+									<DesignButton id="656">
+										<style backgroundColor="#361163" name="Button2" text="Use Buttons" textColor="white"/>
+										<controlActions id="670">
+											<children>
+												<DesignActionCtrlClick id="671">
+													<children>
+														<DesignActionGotoSubpage id="1016" pageRef="599" showLoadSubpageMsg="0" showCloseSubpageMsg="0"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="677">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="678"/>
+							<DesignTableCol id="679"/>
+							<DesignTableCol id="680"/>
+							<DesignTableCol id="681"/>
+							<DesignTableRow id="682">
+								<children>
+									<DesignLabel id="676">
+										<style align="left" name="Label1" text="End 1" weight="1"/>
+									</DesignLabel>
+									<DesignEditField id="675" pageXML="747">
+										<style enabled="0" name="Edit Field1"/>
+									</DesignEditField>
+									<DesignEditField id="683" pageXML="748">
+										<style enabled="0" name="Edit Field2"/>
+									</DesignEditField>
+									<DesignEditField id="684" pageXML="749">
+										<style enabled="0" name="Edit Field3"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="928">
+								<children>
+									<DesignLabel id="1910">
+										<style align="left" name="Label2" text="End 2" weight="1"/>
+									</DesignLabel>
+									<DesignEditField id="906" pageXML="750">
+										<style enabled="0" name="Edit Field4"/>
+									</DesignEditField>
+									<DesignEditField id="904" pageXML="751">
+										<style enabled="0" name="Edit Field5"/>
+									</DesignEditField>
+									<DesignEditField id="902" pageXML="752">
+										<style enabled="0" name="Edit Field6"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="929">
+								<children>
+									<DesignLabel id="1911">
+										<style align="left" name="Label3" text="End 3" weight="1"/>
+									</DesignLabel>
+									<DesignEditField id="926" pageXML="753">
+										<style enabled="0" name="Edit Field7"/>
+									</DesignEditField>
+									<DesignEditField id="924" pageXML="754">
+										<style enabled="0" name="Edit Field8"/>
+									</DesignEditField>
+									<DesignEditField id="922" pageXML="755">
+										<style enabled="0" name="Edit Field9"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignButton id="741">
+						<style backgroundColor="#B70062" name="Button3" text="Save and return" textColor="white"/>
+					</DesignButton>
+				</children>
+			</DesignPage>
+			<DesignPage id="599" subPage="1">
+				<style name="Enter Numbers"/>
+				<children>
+					<DesignTable id="756">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="757"/>
+							<DesignTableCol id="758"/>
+							<DesignTableCol id="759"/>
+							<DesignTableRow id="760">
+								<children>
+									<DesignButton id="761">
+										<style backgroundColor="#361163" name="Button1" text="Enter Scores" textColor="white"/>
+										<controlActions id="762">
+											<children>
+												<DesignActionCtrlClick id="763">
+													<children>
+														<DesignActionReturnFromSubpage id="764"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="767">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="769">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="771">
+						<style name="Space5"/>
+					</DesignVSpace>
+					<DesignTable id="801">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="802"/>
+							<DesignTableCol id="803"/>
+							<DesignTableRow id="804">
+								<style borderColor="white" borderWidth="6px"/>
+								<children>
+									<DesignButton id="805">
+										<style name="Button2" text="1" textColor="black"/>
+									</DesignButton>
+									<DesignButton id="808">
+										<style name="Button3" text="2" textColor="black"/>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="980">
+								<style borderColor="white" borderWidth="6px"/>
+								<children>
+									<DesignButton id="821">
+										<style backgroundColor="black" name="Button4" text="3" textColor="white"/>
+									</DesignButton>
+									<DesignButton id="824">
+										<style backgroundColor="black" name="Button5" text="4" textColor="white"/>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="985">
+								<style borderColor="white" borderWidth="6px"/>
+								<children>
+									<DesignButton id="857">
+										<style backgroundColor="aqua" name="Button10" text="5" textColor="black"/>
+									</DesignButton>
+									<DesignButton id="860">
+										<style backgroundColor="aqua" name="Button11" text="6" textColor="black"/>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="990">
+								<style borderColor="white" borderWidth="6px"/>
+								<children>
+									<DesignButton id="863">
+										<style backgroundColor="red" name="Button6" text="7" textColor="black"/>
+									</DesignButton>
+									<DesignButton id="866">
+										<style backgroundColor="red" name="Button7" text="8" textColor="black"/>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="995">
+								<style borderColor="white" borderWidth="6px"/>
+								<children>
+									<DesignButton id="869">
+										<style backgroundColor="yellow" name="Button8" text="9" textColor="black"/>
+									</DesignButton>
+									<DesignButton id="872">
+										<style backgroundColor="yellow" name="Button9" text="10" textColor="black"/>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1000">
+						<style name="Table4"/>
+						<children>
+							<DesignTableCol id="1001"/>
+							<DesignTableRow id="1002">
+								<children>
+									<DesignVSpace id="887">
+										<style name="Space6"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1004">
+								<children>
+									<DesignVSpace id="968">
+										<style name="Space7"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="875">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="876"/>
+							<DesignTableCol id="877"/>
+							<DesignTableCol id="878"/>
+							<DesignTableRow id="879">
+								<children>
+									<DesignVSpace id="880">
+										<style name="Space4"/>
+									</DesignVSpace>
+									<DesignVSpace id="882">
+										<style name="Space3"/>
+									</DesignVSpace>
+									<DesignButton id="884">
+										<style backgroundColor="#361163" name="Button12" text="Use Target" textColor="white"/>
+										<controlActions id="885">
+											<children>
+												<DesignActionCtrlClick id="1006">
+													<children>
+														<DesignActionReturnFromSubpage id="1023"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="930">
+						<style name="Table5"/>
+						<children>
+							<DesignTableCol id="931"/>
+							<DesignTableCol id="932"/>
+							<DesignTableCol id="933"/>
+							<DesignTableCol id="934"/>
+							<DesignTableRow id="935">
+								<children>
+									<DesignLabel id="936">
+										<style align="left" name="Label1" text="End 1" weight="1"/>
+									</DesignLabel>
+									<DesignEditField id="938" pageXML="747">
+										<style name="Edit Field1"/>
+									</DesignEditField>
+									<DesignEditField id="940" pageXML="748">
+										<style name="Edit Field2"/>
+									</DesignEditField>
+									<DesignEditField id="942" pageXML="749">
+										<style name="Edit Field3"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="944">
+								<children>
+									<DesignLabel id="1918">
+										<style align="left" name="Label2" text="End 2" weight="1"/>
+									</DesignLabel>
+									<DesignEditField id="950" pageXML="750">
+										<style name="Edit Field4"/>
+									</DesignEditField>
+									<DesignEditField id="952" pageXML="751">
+										<style name="Edit Field5"/>
+									</DesignEditField>
+									<DesignEditField id="954" pageXML="752">
+										<style name="Edit Field6"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="956">
+								<children>
+									<DesignLabel id="1919">
+										<style align="left" name="Label3" text="End 3" weight="1"/>
+									</DesignLabel>
+									<DesignEditField id="962" pageXML="753">
+										<style name="Edit Field7"/>
+									</DesignEditField>
+									<DesignEditField id="964" pageXML="754">
+										<style name="Edit Field8"/>
+									</DesignEditField>
+									<DesignEditField id="966" pageXML="755">
+										<style name="Edit Field9"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="1076">
+						<style name="Space8"/>
+					</DesignVSpace>
+					<DesignButton id="969">
+						<style backgroundColor="#B70062" name="Button13" text="Save and return" textColor="white"/>
+					</DesignButton>
+				</children>
+			</DesignPage>
+			<DesignPage id="1148">
+				<style name="Attendance" showTitleBar="0"/>
+				<children>
+					<DesignTable id="1149">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="1150"/>
+							<DesignTableCol id="1151"/>
+							<DesignTableCol id="1152"/>
+							<DesignTableRow id="1153">
+								<children>
+									<DesignButton id="1154">
+										<style backgroundColor="#361163" name="Button1" text="Menu" textColor="white"/>
+										<controlActions id="1155">
+											<children>
+												<DesignActionCtrlClick id="1156">
+													<children>
+														<DesignActionGotoPage id="1157" processRef="232"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="1160">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="1162">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="1164">
+						<style align="center" backgroundColor="white" name="LoginTitle" text="Attendance" textColor="#B70062" textSize="50px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="1166">
+						<style name="Table2"/>
+						<children>
+							<DesignTableCol id="1167"/>
+							<DesignTableRow id="1168">
+								<children>
+									<DesignVSpace id="1169">
+										<style name="Space3"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1171">
+								<children>
+									<DesignVSpace id="1172">
+										<style name="Space4"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1174">
+								<children>
+									<DesignVSpace id="1175">
+										<style name="Space5"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1177">
+						<style name="Table3"/>
+						<children>
+							<DesignTableCol id="1178"/>
+							<DesignTableCol id="1179"/>
+							<DesignTableRow id="1180">
+								<children>
+									<DesignLabel id="1181">
+										<style name="Label1" text="Date:"/>
+									</DesignLabel>
+									<DesignDate id="1183" pageXML="1238">
+										<style name="Date1"/>
+									</DesignDate>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1185">
+						<style name="Table4"/>
+						<children>
+							<DesignTableCol id="1186"/>
+							<DesignTableCol id="1187"/>
+							<DesignTableCol id="1188"/>
+							<DesignTableCol id="1189"/>
+							<DesignTableRow id="1190">
+								<children>
+									<DesignVSpace id="1191">
+										<style name="Space6"/>
+									</DesignVSpace>
+									<DesignRadioButton id="1193" pageXML="1552">
+										<style cbRight="0" checked="Yes" name="Radio Button1" text="Yes"/>
+									</DesignRadioButton>
+									<DesignRadioButton id="1195" pageXML="1552">
+										<style cbRight="0" checked="No" name="Radio Button2" text="No"/>
+									</DesignRadioButton>
+									<DesignVSpace id="1197">
+										<style name="Space7"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignVSpace id="1199">
+						<style name="Space8"/>
+					</DesignVSpace>
+					<DesignTable id="1201">
+						<style name="Table5"/>
+						<children>
+							<DesignTableCol id="1202"/>
+							<DesignTableCol id="1203"/>
+							<DesignTableRow id="1204">
+								<children>
+									<DesignLabel id="1205">
+										<style name="Label2" text="Date:"/>
+									</DesignLabel>
+									<DesignDate id="1207" pageXML="1239">
+										<style name="Date2"/>
+									</DesignDate>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignTable id="1209">
+						<style name="Table6"/>
+						<children>
+							<DesignTableCol id="1210"/>
+							<DesignTableCol id="1211"/>
+							<DesignTableCol id="1212"/>
+							<DesignTableCol id="1213"/>
+							<DesignTableRow id="1214">
+								<children>
+									<DesignVSpace id="1215">
+										<style name="Space9"/>
+									</DesignVSpace>
+									<DesignRadioButton id="1217" pageXML="1553">
+										<style cbRight="0" checked="Yes" name="Radio Button3" text="Yes"/>
+									</DesignRadioButton>
+									<DesignRadioButton id="1219" pageXML="1553">
+										<style cbRight="0" checked="No" name="Radio Button4" text="No"/>
+									</DesignRadioButton>
+									<DesignVSpace id="1221">
+										<style name="Space10"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+			<DesignPage id="1328">
+				<style name="Change Access " showTitleBar="0"/>
+				<children>
+					<DesignTable id="1329">
+						<style name="Table1"/>
+						<children>
+							<DesignTableCol id="1330"/>
+							<DesignTableCol id="1331"/>
+							<DesignTableCol id="1332"/>
+							<DesignTableRow id="1333">
+								<children>
+									<DesignButton id="1334">
+										<style backgroundColor="#361163" name="Button1" text="Menu" textColor="white"/>
+										<controlActions id="1335">
+											<children>
+												<DesignActionCtrlClick id="1336">
+													<children>
+														<DesignActionGotoPage id="1337" processRef="232"/>
+													</children>
+												</DesignActionCtrlClick>
+											</children>
+										</controlActions>
+									</DesignButton>
+									<DesignVSpace id="1340">
+										<style name="Space1"/>
+									</DesignVSpace>
+									<DesignVSpace id="1342">
+										<style name="Space2"/>
+									</DesignVSpace>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+					<DesignLabel id="1344">
+						<style align="center" backgroundColor="white" multiLine="1" name="LoginTitle" text="Change Access" textColor="#B70062" textSize="50px" weight="1"/>
+					</DesignLabel>
+					<DesignTable id="1346">
+						<style addDelPossible="0" name="PerformanceRanks" visible="1"/>
+						<children>
+							<DesignTableCol id="1347"/>
+							<DesignTableCol id="1348"/>
+							<DesignTableCol id="1351"/>
+							<DesignTableRow id="1352">
+								<children>
+									<DesignLabel id="1353">
+										<style name="Label1" text="Select User:" weight="1"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1456"/>
+									<DesignLabel id="1463">
+										<style name="Label2" text="Search User:" weight="1"/>
+									</DesignLabel>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1363">
+								<children>
+									<DesignLabel id="1364">
+										<style name="Label5" text="Person 1"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1366"/>
+									<DesignEditField id="1526" pageXML="1551">
+										<style name="Edit Field1"/>
+									</DesignEditField>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1370">
+								<children>
+									<DesignLabel id="1371">
+										<style name="Label6" text="Person 2"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1373"/>
+									<DesignTableCellEmpty id="1376"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1377">
+								<children>
+									<DesignLabel id="1378">
+										<style name="Label7" text="Person 3"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1380"/>
+									<DesignTableCellEmpty id="1383"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1384">
+								<children>
+									<DesignLabel id="1385">
+										<style name="Label8" text="Person 4"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1387"/>
+									<DesignTableCellEmpty id="1390"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1391">
+								<children>
+									<DesignLabel id="1392">
+										<style name="Label9" text="Person 5"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1394"/>
+									<DesignTableCellEmpty id="1397"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1398">
+								<children>
+									<DesignLabel id="1399">
+										<style name="Label10" text="Person 6"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1401"/>
+									<DesignTableCellEmpty id="1404"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1405">
+								<children>
+									<DesignLabel id="1406">
+										<style name="Label11" text="Person 7"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1408"/>
+									<DesignTableCellEmpty id="1411"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1412">
+								<children>
+									<DesignLabel id="1413">
+										<style name="Label12" text="Person 8"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1415"/>
+									<DesignTableCellEmpty id="1418"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1419">
+								<children>
+									<DesignLabel id="1420">
+										<style name="Label13" text="Person 9"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1422"/>
+									<DesignTableCellEmpty id="1425"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1426">
+								<children>
+									<DesignLabel id="1427">
+										<style name="Label14" text="Person 10"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1429"/>
+									<DesignTableCellEmpty id="1432"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1433">
+								<children>
+									<DesignLabel id="1434">
+										<style name="Label15" text="Person 11"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1436"/>
+									<DesignTableCellEmpty id="1439"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1440">
+								<children>
+									<DesignLabel id="1693">
+										<style name="Label16" text="Person 12"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1443"/>
+									<DesignTableCellEmpty id="1446"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1785">
+								<children>
+									<DesignLabel id="1695">
+										<style name="Label17" text="Person 13"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1788"/>
+									<DesignTableCellEmpty id="1789"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1790">
+								<children>
+									<DesignLabel id="1697">
+										<style name="Label18" text="Person 14"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1793"/>
+									<DesignTableCellEmpty id="1794"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1795">
+								<children>
+									<DesignLabel id="1699">
+										<style name="Label19" text="Person 15"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1798"/>
+									<DesignTableCellEmpty id="1799"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1800">
+								<children>
+									<DesignLabel id="1701">
+										<style name="Label20" text="Person 16"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1803"/>
+									<DesignTableCellEmpty id="1804"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1805">
+								<children>
+									<DesignLabel id="1703">
+										<style name="Label21" text="Person 17"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1808"/>
+									<DesignTableCellEmpty id="1809"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1810">
+								<children>
+									<DesignLabel id="1705">
+										<style name="Label22" text="Person 18"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1813"/>
+									<DesignTableCellEmpty id="1814"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1815">
+								<children>
+									<DesignLabel id="1707">
+										<style name="Label23" text="Person 19"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1818"/>
+									<DesignTableCellEmpty id="1819"/>
+								</children>
+							</DesignTableRow>
+							<DesignTableRow id="1820">
+								<children>
+									<DesignLabel id="1709">
+										<style name="Label24" text="Person 20"/>
+									</DesignLabel>
+									<DesignTableCellEmpty id="1823"/>
+									<DesignTableCellEmpty id="1824"/>
+								</children>
+							</DesignTableRow>
+						</children>
+					</DesignTable>
+				</children>
+			</DesignPage>
+		</children>
+	</DesignRoot>
+	<PageXMLNamespaceRoot id="79">
+		<children>
+			<PageXMLNamespace id="80" defNS="1"/>
+		</children>
+	</PageXMLNamespaceRoot>
+	<PageXMLPersistentRoot id="81" name="PERSISTENT">
+		<children>
+			<PageXMLElement id="82" name="Root">
+				<children>
+					<PageXMLElement id="475" name="Date" mustExist="1" default="Current Date"/>
+					<PageXMLElement id="497" name="NoOfEnds" mustExist="1"/>
+					<PageXMLElement id="655" name="EnterArrows" mustExist="1"/>
+					<PageXMLElement id="674" name="Target" mustExist="1"/>
+					<PageXMLElement id="746" name="Arrows">
+						<children>
+							<PageXMLElement id="747" name="Arrow1"/>
+							<PageXMLElement id="748" name="Arrow2"/>
+							<PageXMLElement id="749" name="Arrow3"/>
+							<PageXMLElement id="750" name="Arrow4"/>
+							<PageXMLElement id="751" name="Arrow5"/>
+							<PageXMLElement id="752" name="Arrow6"/>
+							<PageXMLElement id="753" name="Arrow7"/>
+							<PageXMLElement id="754" name="Arrow8"/>
+							<PageXMLElement id="755" name="Arrow9"/>
+						</children>
+					</PageXMLElement>
+					<PageXMLElement id="1078" name="ArrowSet"/>
+					<PageXMLElement id="1905" name="TrainingAttendance">
+						<children>
+							<PageXMLElement id="1145" name="AttendTraining1"/>
+							<PageXMLElement id="1146" name="AttendTraining2"/>
+							<PageXMLElement id="1552" name="AttendTraining3"/>
+							<PageXMLElement id="1553" name="AttendTraining4"/>
+						</children>
+					</PageXMLElement>
+					<PageXMLElement id="1144" name="TrainingDate1"/>
+					<PageXMLElement id="1147" name="TrainingDate2"/>
+					<PageXMLElement id="1238" name="TrainedDate1"/>
+					<PageXMLElement id="1239" name="TrainedDate2"/>
+					<PageXMLElement id="1551" name="SearchNames"/>
+					<PageXMLElement id="1906" name="FirstName"/>
+					<PageXMLElement id="1907" name="Surname"/>
+					<PageXMLElement id="1908" name="Email"/>
+				</children>
+			</PageXMLElement>
+		</children>
+	</PageXMLPersistentRoot>
+	<PageXMLRoots id="72">
+		<children>
+			<PageXMLRootXML id="73" name="LoginScreen">
+				<children>
+					<PageXMLElement id="74" name="Login_Page">
+						<children>
+							<PageXMLElement id="210" name="Username_In" mustExist="1"/>
+							<PageXMLElement id="211" name="Password_In" mustExist="1"/>
+						</children>
+					</PageXMLElement>
+				</children>
+			</PageXMLRootXML>
+			<PageXMLRootXML id="291" name="HomeScreen"/>
+		</children>
+	</PageXMLRoots>
+	<WorkflowRoot id="69">
+		<children>
+			<WorkflowPageRef id="70" page="6"/>
+			<WorkflowPageRef id="232" page="223"/>
+			<WorkflowPageRef id="444" page="374"/>
+			<WorkflowPageRef id="445" page="399"/>
+			<WorkflowPageRef id="446" page="408"/>
+			<WorkflowPageRef id="1237" page="1148"/>
+			<WorkflowPageRef id="448" page="426"/>
+			<WorkflowPageRef id="1550" page="1328"/>
+		</children>
+	</WorkflowRoot>
+	<GlobalVariables id="83">
+		<children>
+			<GlobalVariable id="84" sysVar="MT_Android" idxIcon_so="0"/>
+			<GlobalVariable id="85" sysVar="MT_iOS" idxIcon_so="1"/>
+			<GlobalVariable id="86" sysVar="MT_Browser" idxIcon_so="2"/>
+			<GlobalVariable id="87" sysVar="MT_iPad" idxIcon_so="3"/>
+			<GlobalVariable id="88" sysVar="MT_Windows" idxIcon_so="6"/>
+			<GlobalVariable id="89" sysVar="MT_WindowsPhone" idxIcon_so="7"/>
+			<GlobalVariable id="90" sysVar="MT_DeviceWidth"/>
+			<GlobalVariable id="91" sysVar="MT_DeviceHeight"/>
+			<GlobalVariable id="92" sysVar="MT_DPIX"/>
+			<GlobalVariable id="93" sysVar="MT_DPIY"/>
+			<GlobalVariable id="94" sysVar="MT_Landscape" idxIcon_so="4"/>
+			<GlobalVariable id="95" sysVar="MT_Portrait" idxIcon_so="5"/>
+			<GlobalVariable id="96" sysVar="MT_CanvasX"/>
+			<GlobalVariable id="97" sysVar="MT_CanvasY"/>
+			<GlobalVariable id="98" sysVar="MT_ClientLanguage"/>
+			<GlobalVariable id="99" sysVar="MT_TelephonyAvailable" idxIcon_so="20"/>
+			<GlobalVariable id="100" sysVar="MT_SMSAvailable" idxIcon_so="21"/>
+			<GlobalVariable id="101" sysVar="MT_ButtonTextColor"/>
+			<GlobalVariable id="102" sysVar="MT_ButtonBackgroundColor"/>
+			<GlobalVariable id="103" sysVar="MT_EditFieldTextColor"/>
+			<GlobalVariable id="104" sysVar="MT_EditFieldBackgroundColor"/>
+			<GlobalVariable id="105" sysVar="MT_LabelTextColor"/>
+			<GlobalVariable id="106" sysVar="MT_LabelBackgroundColor"/>
+			<GlobalVariable id="107" sysVar="MT_PageBackgroundColor"/>
+			<GlobalVariable id="108" sysVar="MT_FirstPageLoad"/>
+			<GlobalVariable id="109" sysVar="MT_TargetNode"/>
+			<GlobalVariable id="110" sysVar="MT_ControlKind"/>
+			<GlobalVariable id="111" sysVar="MT_ControlName"/>
+			<GlobalVariable id="112" sysVar="MT_ControlNode"/>
+			<GlobalVariable id="113" sysVar="MT_PageName"/>
+			<GlobalVariable id="114" sysVar="MT_UserName"/>
+			<GlobalVariable id="115" sysVar="MT_UserRoles"/>
+			<GlobalVariable id="116" sysVar="MT_ControlValue"/>
+			<GlobalVariable id="117" sysVar="MT_ControlValueBeforeChange"/>
+			<GlobalVariable id="118" sysVar="MT_SimulationMode"/>
+			<GlobalVariable id="119" sysVar="MT_DBExecute_Result"/>
+			<GlobalVariable id="120" sysVar="MT_CameraAvailable"/>
+			<GlobalVariable id="121" sysVar="MT_GeolocationAvailable"/>
+			<GlobalVariable id="122" sysVar="MT_InputParameters"/>
+			<GlobalVariable id="123" sysVar="MT_HTTPExecute_Result"/>
+			<GlobalVariable id="124" sysVar="MT_ServerConnectionErrorLocation"/>
+			<GlobalVariable id="125" sysVar="MT_IsAppStoreApp"/>
+			<GlobalVariable id="126" sysVar="MT_WindowWidth"/>
+			<GlobalVariable id="127" sysVar="MT_WindowHeight"/>
+			<GlobalVariable id="128" sysVar="MT_AudioChannel"/>
+			<GlobalVariable id="129" sysVar="MT_TableColumnContext"/>
+			<GlobalVariable id="130" sysVar="MT_NFCAvailable"/>
+			<GlobalVariable id="131" sysVar="MT_IsEmbedded"/>
+			<GlobalVariable id="132" sysVar="MT_GeolocationMapMarker"/>
+			<GlobalVariable id="133" sysVar="MT_AuthenticationToken"/>
+			<GlobalVariable id="134" sysVar="MT_MeasureControls"/>
+		</children>
+	</GlobalVariables>
+	<DeployableFiles so="1" id="136">
+		<children>
+			<DeployableFile id="625"/>
+		</children>
+	</DeployableFiles>
+	<CustomerAppSettings so="1" id="68"/>
+</MobileTogetherDesign>
